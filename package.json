@@ -1,0 +1,43 @@
+{
+  "name": "ecommerce-playwright-framework",
+  "version": "1.0.0",
+  "description": "Enterprise-grade Playwright test automation framework for e-commerce application",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:report": "playwright show-report",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"**/*.{ts,js,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,js,json,md}\"",
+    "install:browsers": "playwright install --with-deps"
+  },
+  "keywords": [
+    "playwright",
+    "test-automation",
+    "e-commerce",
+    "typescript"
+  ],
+  "author": "QA Automation Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^22.5.5",
+    "@typescript-eslint/eslint-plugin": "^8.4.0",
+    "@typescript-eslint/parser": "^8.4.0",
+    "eslint": "^9.13.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "optionalDependencies": {
+    "@wdio/allure-reporter": "^8.39.1"
+  }
+}

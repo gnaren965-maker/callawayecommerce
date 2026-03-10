@@ -1,0 +1,258 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - generic [ref=e9]: 
+            - text: 800-228-2767
+          - generic [ref=e10]:
+            - generic [ref=e11]: CALLAWAY SALES TEST ACC-0000044444
+            - generic [ref=e12]:
+              - text: Switch Account
+              - generic [ref=e13]: 
+              - text: 
+        - text:   
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - generic [ref=e17]:
+              - generic [ref=e19] [cursor=pointer]:
+                - text: 
+                - generic [ref=e20]: "30"
+              - generic [ref=e21]:
+                - link [ref=e23] [cursor=pointer]:
+                  - /url: /cart
+                - generic [ref=e26]: "13"
+    - navigation [ref=e27]:
+      - generic [ref=e31]:
+        - link [ref=e36] [cursor=pointer]:
+          - /url: /
+        - list [ref=e37]:
+          - generic [ref=e38]:
+            - text: 
+            - navigation [ref=e39]:
+              - list [ref=e41]:
+                - generic [ref=e42]: Place Order
+                - listitem: 
+                - generic [ref=e43]: Check Status
+                - listitem: 
+                - link "Bill Pay" [ref=e46] [cursor=pointer]:
+                  - /url: /mycompany-callaway/mycompanyinvoices/
+                - generic [ref=e47]: COMPENSATION
+                - listitem: 
+                - generic [ref=e48]: Trade In/Returns
+                - listitem: 
+                - link "FITTING EVENTS" [ref=e51] [cursor=pointer]:
+                  - /url: /fitting-summary
+                - generic [ref=e52]: Resources
+                - listitem: 
+        - generic:
+          - list:
+            - listitem
+            - text: 
+          - generic:
+            - generic:
+              - generic:
+                - generic [ref=e53]: 
+                - text: 
+    - list [ref=e56]:
+      - listitem [ref=e57]:
+        - link "Home" [ref=e58] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e59]:
+        - text: /
+        - link "golf balls" [ref=e60] [cursor=pointer]:
+          - /url: /GOLF-BALLS/c/BALLS
+      - listitem [ref=e61]:
+        - text: /
+        - link "chrome soft" [ref=e62] [cursor=pointer]:
+          - /url: /GOLF-BALLS/CHROME-SOFT/c/CHROMESOFT
+      - listitem [ref=e63]: / chrome soft 24 (white)
+  - generic [ref=e65]:
+    - generic [ref=e70]:
+      - generic [ref=e71]: CHROME SOFT 24 (WHITE)
+      - link "Stock Order " [ref=e73] [cursor=pointer]:
+        - /url: /p/BP_020172/bulkOrder
+        - generic [ref=e74]: Stock Order 
+    - generic [ref=e77]:
+      - generic [ref=e79]:
+        - img [ref=e82]
+        - img [ref=e96]
+      - generic [ref=e108]: Personalization sample. Actual results may vary.
+    - generic [ref=e110]:
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - generic [ref=e115]: Customize Your Golf Balls
+          - generic [ref=e117]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: "*Required"
+              - link "Clear Selections " [ref=e120] [cursor=pointer]:
+                - /url: javascript:window.location.href=window.location.href
+                - text: Clear Selections
+                - generic [ref=e121]: 
+            - generic [ref=e122]:
+              - generic [ref=e124]:
+                - text: Personalization
+                - generic "Required" [ref=e125]: "*"
+              - radiogroup [ref=e126]:
+                - generic [ref=e131] [cursor=pointer]: "No"
+                - generic [ref=e136] [cursor=pointer]: "Yes"
+                - text: 
+            - generic [ref=e137]:
+              - generic [ref=e139]:
+                - text: Personalization or Line Rite
+                - generic "Required" [ref=e140]: "*"
+              - radiogroup [ref=e141]:
+                - generic [ref=e146] [cursor=pointer]: Personalization
+                - generic [ref=e151] [cursor=pointer]: Straight Line
+                - generic [ref=e156] [cursor=pointer]: Target Line
+                - text: 
+            - generic [ref=e157]:
+              - generic [ref=e159]:
+                - text: Ink Color
+                - generic "Required" [ref=e160]: "*"
+              - radiogroup [ref=e161]:
+                - list [ref=e162]:
+                  - listitem [ref=e163]
+                  - listitem [ref=e166]
+                  - listitem [ref=e169]
+                  - listitem [ref=e172]
+                  - listitem [ref=e175]
+                  - listitem [ref=e178]
+                  - listitem [ref=e181]
+                  - listitem [ref=e184]
+                - generic [ref=e188]: 
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - generic [ref=e191]:
+                  - text: Font
+                  - generic "Required" [ref=e192]: "*"
+                - generic [ref=e194]: 
+              - radiogroup [ref=e195]:
+                - generic [ref=e200] [cursor=pointer]: Block
+                - generic [ref=e205] [cursor=pointer]: Script
+                - text: 
+            - generic [ref=e206]:
+              - generic [ref=e207]:
+                - generic [ref=e208]: Line 1 (Optional)
+                - generic [ref=e210]: 
+              - generic [ref=e211]:
+                - textbox "Line 1 (Optional)" [ref=e212]
+                - text: 0/20 Characters 
+            - generic [ref=e213]:
+              - generic [ref=e215]: Line 2 (Optional)
+              - generic [ref=e216]:
+                - textbox "Line 2 (Optional)" [ref=e217]
+                - text: 0/20 Characters 
+            - generic [ref=e218]:
+              - generic [ref=e220]: Line 3 (Optional)
+              - generic [ref=e221]:
+                - textbox "Line 3 (Optional)" [ref=e222]
+                - text: 0/20 Characters 
+            - generic [ref=e223]:
+              - generic [ref=e225]: Add Custom Number or Initials (Optional)
+              - generic [ref=e226]:
+                - generic [ref=e231] [cursor=pointer]: "NO"
+                - generic [ref=e236] [cursor=pointer]: "Yes"
+                - text: 
+        - generic [ref=e237]:
+          - generic [ref=e238]:
+            - generic [ref=e239]: Tag Name
+            - textbox [ref=e240]
+          - generic [ref=e241]:
+            - generic [ref=e242]:
+              - text: Qty
+              - generic [ref=e244]: 
+            - generic [ref=e245]:
+              - generic [ref=e247] [cursor=pointer]: 
+              - generic [ref=e249] [cursor=pointer]: 
+              - textbox [ref=e250]: "1"
+      - text: 
+    - generic [ref=e254]:
+      - link "Product Summary −" [ref=e257] [cursor=pointer]:
+        - /url: "#collapseOne"
+        - text: Product Summary
+        - generic [ref=e258]: −
+      - generic [ref=e259]:
+        - button "Wholesale Price Summary −" [ref=e260] [cursor=pointer]:
+          - generic [ref=e261]: Wholesale Price Summary
+          - generic [ref=e262]: −
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - generic [ref=e265]: Base Price
+            - generic [ref=e266]: $48.00
+          - generic [ref=e267]:
+            - generic [ref=e268]: Personalization
+            - generic [ref=e269]: $5.00
+      - generic [ref=e270]:
+        - generic [ref=e271]: "Total Wholesale Price:"
+        - generic [ref=e272]: $53.00
+      - button "Add to Cart Please complete all selections." [disabled] [ref=e273]:
+        - text: Add to Cart
+        - generic [ref=e274]: Please complete all selections.
+  - generic [ref=e275]:
+    - generic [ref=e280]:
+      - generic [ref=e281]:
+        - generic [ref=e282]: Help
+        - list [ref=e283]:
+          - listitem [ref=e284]:
+            - link "Contact Us" [ref=e285] [cursor=pointer]:
+              - /url: /my-account/contactUs
+          - listitem [ref=e286]:
+            - link "FAQs" [ref=e287] [cursor=pointer]:
+              - /url: /my-account/FAQ
+      - generic [ref=e288]:
+        - generic [ref=e289]: LEGAL
+        - list [ref=e290]:
+          - listitem [ref=e291]:
+            - link "Terms & Conditions" [ref=e292] [cursor=pointer]:
+              - /url: /medias/Callaway-Connect-Legal-Terms-and-Conditions.pdf?context=bWFzdGVyfGRvY3VtZW50c3wyODI1Mzl8YXBwbGljYXRpb24vcGRmfGRvY3VtZW50cy9oOGUvaGQ5Lzg5NTM3MjAwNzgzNjYucGRmfGU1ODAzNDhmNDlhOGQzM2E3OGRhOWUyYzE1MWUxYWE5ZjNiZmE5Nzc0MTgzZDUzNDA4N2VmN2U1OTkxYTc5MjA
+          - listitem [ref=e293]:
+            - link "MAP / NPIP Policy" [ref=e294] [cursor=pointer]:
+              - /url: /medias/Callaway-NPIPMAP.pdf?context=bWFzdGVyfGRvY3VtZW50c3wzODYwODIwfGFwcGxpY2F0aW9uL3BkZnxkb2N1bWVudHMvaDFkL2hlMy85NDQ4Mzg4Njg5OTUwLnBkZnxlNzFmMmEzYWM1NTNlN2QwMTI3YjkxZjU5YTVhYjRiNjZlM2JmODA2MDIxZWMxZmNmNzUyZjk5NzkwZjJkZWQ1
+          - listitem [ref=e295]:
+            - link "Internet Policy" [ref=e296] [cursor=pointer]:
+              - /url: /medias/2025-Internet-Policy-for-Retailers-2025.03.01.pdf?context=bWFzdGVyfGRvY3VtZW50c3w1Nzg3Njl8YXBwbGljYXRpb24vcGRmfGRvY3VtZW50cy9oZTAvaDUyLzkzNzYyNTIyOTcyNDYucGRmfDQ5MWM4NDNhMGY5MjU5MDRlZDNlMzc4YTBmYTM5ODZkMjFjZmNjY2VhYjI4N2YxNGQ2OGMzYjY4MDc3YmNiOTU
+          - listitem [ref=e297]:
+            - link "Privacy Policy" [ref=e298] [cursor=pointer]:
+              - /url: https://cgmediacontentus.blob.core.windows.net/connect/Legal/legal-privacy-policy.pdf
+          - listitem [ref=e299]:
+            - link "Ad and Cookie Policy" [ref=e300] [cursor=pointer]:
+              - /url: https://cgmediacontentus.blob.core.windows.net/connect/Legal/Ad%20and%20Cookie%20Policy.pdf
+          - listitem [ref=e301]:
+            - link "Off-Premises Sales Policy" [ref=e302] [cursor=pointer]:
+              - /url: /medias/Off-PremisesSalesPolicy.pdf?context=bWFzdGVyfGRvY3VtZW50c3w3NjgwMzV8YXBwbGljYXRpb24vcGRmfGRvY3VtZW50cy9oZWEvaGY1Lzg5NTM0NTk5OTg3NTAucGRmfGI1OWFjNDdiMGZiYmI4NjcxNGRlZTE1MzlhNDVhYmEzYWE4ZTRlMTFhNjFmNzU5OTY2NjJmMDIxMTcyZDk0Y2Y
+          - listitem [ref=e303]:
+            - link "Sustainability" [ref=e304] [cursor=pointer]:
+              - /url: https://ir.callawaygolf.com/corporate-governance/corporate-social-responsibility
+          - listitem [ref=e305]:
+            - link "Seller Policy" [ref=e306] [cursor=pointer]:
+              - /url: /medias/Seller-Policy.pdf?context=bWFzdGVyfGRvY3VtZW50c3w3MTc1OTh8YXBwbGljYXRpb24vcGRmfGRvY3VtZW50cy9oMjkvaDRmLzkzNzYzNjUwODQ3MDIucGRmfDM2MDkwOGRmODdjY2ZhNzRhYjEwMWNlYzIwN2ZkYmUxZjZkZDE5YjM5Y2U0ODc1ZTVhMjFiZTkwZmY5NzBhM2M
+      - generic [ref=e307]:
+        - generic [ref=e308]: Product Resources
+        - list [ref=e309]:
+          - listitem [ref=e310]:
+            - link "Custom Club Availability" [ref=e311] [cursor=pointer]:
+              - /url: https://cgmediacontentus.blob.core.windows.net/connect/ProductCenter/ConstrainedComponents.pdf
+          - listitem [ref=e312]:
+            - link "Logo Guide" [ref=e313] [cursor=pointer]:
+              - /url: https://cgmediacontentus.blob.core.windows.net/connect/ProductCenter/LogoGuide.pdf
+          - listitem [ref=e314]:
+            - link "Catalogs" [ref=e315] [cursor=pointer]:
+              - /url: /my-account/product-catalogs
+          - listitem [ref=e316]:
+            - link "Wholesale Price List" [ref=e317] [cursor=pointer]:
+              - /url: /medias/Callaway-Wholesale-PriceList-US.pdf?context=bWFzdGVyfGRvY3VtZW50c3wzNzMzOTE0fGFwcGxpY2F0aW9uL3BkZnxkb2N1bWVudHMvaDU5L2g5ZS85NDUwMTY2NzE0Mzk4LnBkZnwzZmI4ZTMxMzcwYTE2NzNkMmMwODMzZWQ3NDY1NzBhYmM2ZDQ1MjIyN2VlNjRmNmI4MjI4NjYwYjQ1ZjFlZTM4
+          - listitem [ref=e318]:
+            - link "Marketing Assets" [ref=e319] [cursor=pointer]:
+              - /url: http://callawaymedia.com/
+          - listitem [ref=e320]:
+            - link "Product Setup Sheets & UPC Lists" [ref=e321] [cursor=pointer]:
+              - /url: /my-account/product-setup
+    - generic [ref=e327]:
+      - link [ref=e330] [cursor=pointer]:
+        - /url: https://www.callawaygolf.com/
+      - link [ref=e333] [cursor=pointer]:
+        - /url: https://odyssey.callawaygolf.com/
+      - link [ref=e336] [cursor=pointer]:
+        - /url: https://www.ogio.com/

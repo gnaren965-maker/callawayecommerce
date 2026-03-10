@@ -1,0 +1,30 @@
+{
+  "US": {
+    "username": "hyqa_us_sravan@yopmail.com",
+    "password": "1234"
+  },
+  "Canada": {
+    "username": "hyqa_sravan_ca@yopmail.com",
+    "password": "1234"
+  },
+  "Japan": {
+    "username": "jpuat@yopmail.com",
+    "password": "1234"
+  },
+  "Europe": {
+    "username": "eusprint37@yopmail.com",
+    "password": "Hyqa@123"
+  },
+  "South Pacific": {
+    "username": "hyqa_au_sravan@yopmail.com",
+    "password": "Hyqa@123"
+  },
+  "Latin America and Other": {
+    "username": "hyqa_row_sravan@yopmail.com",
+    "password": "Hyqa@1234"
+  },
+  "Republic of Korea": {
+    "username": "kr_user",
+    "password": "kr_pass"
+  }
+}
