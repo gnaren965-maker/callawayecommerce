@@ -19,11 +19,15 @@ pipeline {
                 bat 'npx playwright install'
             }
         }
-        stage('Run Tests') {
-            steps {
-                bat "REGION=${params.REGION} npx playwright test"
-            }
-        }
+       stage('Run Tests') {
+    steps {
+        bat """
+        set REGION=${params.REGION}
+        npx playwright test
+        """
+    }
+}
+
         stage('Generate Allure Report') {
             steps {
                 bat 'npx allure generate ./allure-results --clean -o ./reports/allure'
