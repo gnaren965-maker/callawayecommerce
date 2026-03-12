@@ -15,18 +15,18 @@ pipeline {
         }
         stage('Install Dependencies') {
             steps {
-                sh 'npm install'
-                sh 'npx playwright install'
+                bat 'npm install'
+                bat 'npx playwright install'
             }
         }
         stage('Run Tests') {
             steps {
-                sh "REGION=${params.REGION} npx playwright test"
+                bat "REGION=${params.REGION} npx playwright test"
             }
         }
         stage('Generate Allure Report') {
             steps {
-                sh 'npx allure generate ./allure-results --clean -o ./reports/allure'
+                bat 'npx allure generate ./allure-results --clean -o ./reports/allure'
             }
         }
         stage('Archive Report') {
