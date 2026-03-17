@@ -8,28 +8,28 @@ export default defineConfig({
   workers: 1,
   timeout: 60000,
   reporter: [
-    ['list'],                                    // console output
-    ['html', { outputFolder: 'reports/html' }],  // HTML report
-    ['allure-playwright']                        // Allure report
+    ['list'],                                    // console output in Jenkins logs
+    ['html', { outputFolder: 'reports/html' }],  // Playwright HTML report (optional)
+    ['allure-playwright']                        // Allure results for Jenkins plugin
   ],
   use: {
     trace: 'on-first-retry',
-    headless: false,
+    headless: process.env.HEAD_MODE !== 'headed', // toggle via Jenkins parameter
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
   },
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'], headless: false },
+      use: { ...devices['Desktop Chrome'], headless: process.env.HEAD_MODE !== 'headed' },
     },
     {
       name: 'firefox',
-      use: { ...devices['Desktop Firefox'], headless: false },
+      use: { ...devices['Desktop Firefox'], headless: process.env.HEAD_MODE !== 'headed' },
     },
     {
       name: 'webkit',
-      use: { ...devices['Desktop Safari'], headless: false },
+      use: { ...devices['Desktop Safari'], headless: process.env.HEAD_MODE !== 'headed' },
     },
   ],
 });
